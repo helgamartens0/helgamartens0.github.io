@@ -218,3 +218,152 @@ textarea {
   height: 350px;
   width: 350px;
 }
+
+
+ /*
+   -------Comprar-------- 
+   */
+        
+        .content-comprar {
+            background-color: white;
+            height: 300px;
+            padding: 50px 0;
+        }
+        
+        .content-comprar h1 {
+            margin-top: 50px;
+            font-size: 30px;
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: 1px 1px 2px;
+        }
+        
+        .content-comprar p {
+            color: #524c42;
+            text-align: center;
+            font-size: 15;
+        }
+        
+        .categories-content-comprar {
+            display: flex;
+            /* Utilizamos flexbox */
+            overflow-x: auto;
+            /* Añadimos un scroll horizontal en caso de que el contenido exceda el ancho */
+            justify-content: space-between;
+            /* Distribuye los elementos con espacio entre ellos */
+            padding: 0 10px;
+            /* Agrega espacio de relleno horizontal alrededor del contenido */
+        }
+        
+        .cat-comprar {
+            flex: 0 0 auto;
+            /* Hace que los elementos mantengan su tamaño original */
+            margin-right: 10px;
+            /* Agrega espacio entre las imágenes */
+        }
+        
+        .cat-comprar img {
+            max-width: 100%;
+            /* Asegura que las imágenes no excedan el ancho del contenedor */
+            height: auto;
+            /* Mantiene la proporción de aspecto de las imágenes */
+        }
+        
+        .categories-comprar-ej {
+            margin-top: 100px;
+        }
+        
+        .peugeot {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .peugeot img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+        }
+        
+        .amarok {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .amarok img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+        }
+        
+        .fiat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .fiat img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+        }
+        
+        .btn-vermas button {
+            margin-top: 20px;
+            background-color: transparent;
+            border: 2px solid #000000;
+            color: #000000;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        .btn-vermas button:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        
+        .footer {
+            background-color: #000000;
+            margin-top: 100px;
+            height: auto;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        
+        .footer .nav-footer {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .footer img {
+            transform: scale(0.7);
+            /* Reducir la imagen en un 30% */
+        }
+        
+        .vermas-container {
+            background-color: white;
+            margin-top: 100px;
+            height: auto;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        
+        .vermas-container .vermas-img {
+            margin-left: 200px;
+            height: auto;
+            width: auto;
+            transform: scale(1.19);
+        }
