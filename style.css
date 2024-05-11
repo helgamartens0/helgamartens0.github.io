@@ -40,7 +40,7 @@ body {
 }
 
 .menu .navbar ul li a {
-  font-size: 18px;
+  font-size: 12px;
   padding: 20px;
   color: black;
   display: block;
@@ -156,4 +156,65 @@ strong {
   color: white;
   height: 30px;
   margin: 15px;
+}
+/*--------------------------------------------form styles-----------------------------------------------*/
+
+.containerf {
+  height: 100%;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  align-content: center;
+}
+form {
+  padding: 50px 55px;
+  border-radius: 20px;
+  text-align: center;
+  width: 500px;
+  height: 70%;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.h2-form {
+  margin: 10px 0 10px 0;
+  text-transform: uppercase;
+}
+label {
+  color: #0f0f0f;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+input,
+textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #edfff0;
+  border: 2px solid #f0faf1;
+  color: #283629;
+}
+
+.btn {
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 25px;
+  background-color: #283629;
+  box-shadow: 0 0 20px rgba(6, 26, 3, 0.4);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+#img-form {
+  height: 350px;
+  width: 350px;
 }
