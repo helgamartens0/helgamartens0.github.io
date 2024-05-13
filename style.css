@@ -1,369 +1,373 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .menu container {
-  height: 5rem;
+    height: 5rem;
 }
+
 .container {
-  height: 150px;
-  max-width: 1200px;
+    height: 150px;
+    max-width: 1200px;
 }
 
 .header {
-  height: 10rem;
-  display: flex;
-  align-items: center;
+    height: 10rem;
+    display: flex;
+    align-items: center;
 }
 
 .menu {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu .navbar ul li {
-  position: relative;
-  float: left;
+    position: relative;
+    float: left;
 }
 
 .menu .navbar ul li a {
-  font-size: 12px;
-  padding: 20px;
-  color: black;
-  display: block;
-  font-weight: 600;
-  border: 2px solid #000000;
-  border-radius: 20px;
-  padding: 5px;
-  margin-left: 10px;
+    font-size: 12px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 10px;
 }
 
 .menu .navbar ul li a:hover {
-  color: #524c42;
+    color: #524c42;
 }
 
 .logo {
-  height: 100px;
-  margin-right: 300px;
+    height: 100px;
+    margin-right: 300px;
 }
+
 #menu-icon {
-  display: none;
+    display: none;
 }
+
 .menu-icono {
-  width: 25px;
+    width: 25px;
 }
+
 .menu label {
-  cursor: pointer;
-  display: none;
+    cursor: pointer;
+    display: none;
 }
 
 .content {
-  background-image: url(img/bg-frente.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 900px;
-  padding: 100px 0;
+    background-image: url(img/bg-frente.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    padding: 100px 0;
 }
 
 .content h1 {
-  color: #f9fafc;
-  margin-top: 160px;
-  font-size: 70px;
-  text-transform: uppercase;
-  text-align: left;
-  text-shadow: 2px 2px 4px #000000;
-  font-display: block;
+    color: #f9fafc;
+    margin-top: 160px;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000000;
+    font-display: block;
 }
 
 .content p {
-  color: #f9fafc;
-  text-align: center;
-  font-size: 16px;
+    color: #f9fafc;
+    text-align: center;
+    font-size: 16px;
 }
 
 .categories {
-  height: 100vh;
+    height: 100vh;
 }
 
 .categories h2 {
-  margin-top: 50px;
-  font-size: 40px;
-  text-transform: uppercase;
-  text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .categories-content {
-  display: flex;
-  align-items: center;
-  height: 400px;
-  justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: space-evenly;
 }
 
 .categorie-1 {
-  width: 300px;
+    width: 300px;
 }
 
 .categorie-1 img {
-  height: 300px;
-  width: 300px;
+    height: 300px;
+    width: 300px;
 }
 
 .categorie-1 h3 {
-  text-align: center;
-  margin-left: 100px;
+    text-align: center;
+    margin-left: 100px;
 }
 
+
+/*cambie height y margin-top a auto*/
+
 .footer {
-  background-color: #0f0f0f;
-  height: 250px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
+    background-color: #0f0f0f;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: auto;
 }
 
 img {
-  height: 100px;
-  margin: 50px;
+    height: 100px;
+    margin: 50px;
 }
 
 .links .nav-footer,
 p,
 strong {
-  color: #f9fafc;
-  font-size: 12px;
+    color: #f9fafc;
+    font-size: 12px;
 }
 
 .footer contact {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .ico img {
-  color: white;
-  height: 30px;
-  margin: 15px;
+    color: white;
+    height: 30px;
+    margin: 15px;
 }
+
+
 /*--------------------------------------------form styles-----------------------------------------------*/
 
 .containerf {
-  height: 100%;
+    height: 100%;
 }
+
 .form-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    align-content: center;
 }
+
 form {
-  padding: 50px 55px;
-  border-radius: 20px;
-  text-align: center;
-  width: 500px;
-  height: 70%;
+    padding: 50px 55px;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: 70%;
 }
+
 .form-input {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
 }
+
 .h2-form {
-  margin: 10px 0 10px 0;
-  text-transform: uppercase;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
 }
+
 label {
-  color: #0f0f0f;
-  font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
+    color: #0f0f0f;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
+
 input,
 textarea {
-  padding: 17px 25px;
-  border-radius: 25px;
-  margin-bottom: 20px;
-  background-color: #edfff0;
-  border: 2px solid #f0faf1;
-  color: #283629;
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: #edfff0;
+    border: 2px solid #f0faf1;
+    color: #283629;
 }
 
 .btn {
-  font-size: 16px;
-  color: #ffffff;
-  border: 0;
-  border-radius: 25px;
-  background-color: #283629;
-  box-shadow: 0 0 20px rgba(6, 26, 3, 0.4);
-  cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    background-color: #283629;
+    box-shadow: 0 0 20px rgba(6, 26, 3, 0.4);
+    cursor: pointer;
 }
 
 .btn:hover {
-  background-color: #000000;
+    background-color: #000000;
 }
+
 #img-form {
-  height: 350px;
-  width: 350px;
+    height: 350px;
+    width: 350px;
 }
 
 
- /*
-   -------Comprar-------- 
+/*
+   --------------------------------------------Comprar----------------------------------------------------------
    */
-        
-        .content-comprar {
-            background-color: white;
-            height: 300px;
-            padding: 50px 0;
-        }
-        
-        .content-comprar h1 {
-            margin-top: 50px;
-            font-size: 30px;
-            text-transform: uppercase;
-            text-align: center;
-            text-shadow: 1px 1px 2px;
-        }
-        
-        .content-comprar p {
-            color: #524c42;
-            text-align: center;
-            font-size: 15;
-        }
-        
-        .categories-content-comprar {
-            display: flex;
-            /* Utilizamos flexbox */
-            overflow-x: auto;
-            /* Añadimos un scroll horizontal en caso de que el contenido exceda el ancho */
-            justify-content: space-between;
-            /* Distribuye los elementos con espacio entre ellos */
-            padding: 0 10px;
-            /* Agrega espacio de relleno horizontal alrededor del contenido */
-        }
-        
-        .cat-comprar {
-            flex: 0 0 auto;
-            /* Hace que los elementos mantengan su tamaño original */
-            margin-right: 10px;
-            /* Agrega espacio entre las imágenes */
-        }
-        
-        .cat-comprar img {
-            max-width: 100%;
-            /* Asegura que las imágenes no excedan el ancho del contenedor */
-            height: auto;
-            /* Mantiene la proporción de aspecto de las imágenes */
-        }
-        
-        .categories-comprar-ej {
-            margin-top: 100px;
-        }
-        
-        .peugeot {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        
-        .peugeot img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 40px;
-        }
-        
-        .amarok {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        
-        .amarok img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 40px;
-        }
-        
-        .fiat {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        
-        .fiat img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 40px;
-        }
-        
-        .btn-vermas button {
-            margin-top: 20px;
-            background-color: transparent;
-            border: 2px solid #000000;
-            color: #000000;
-            padding: 10px 15px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 18px;
-            font-weight: 600;
-            cursor: pointer;
-            border-radius: 20px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        
-        .btn-vermas button:hover {
-            background-color: #000000;
-            color: #ffffff;
-        }
-        
-        .footer {
-            background-color: #000000;
-            margin-top: 100px;
-            height: auto;
-            color: white;
-            display: flex;
-            align-items: center;
-        }
-        
-        .footer .nav-footer {
-            text-decoration: none;
-            color: white;
-        }
-        
-        .footer img {
-            transform: scale(0.7);
-            /* Reducir la imagen en un 30% */
-        }
-        
-        .vermas-container {
-            background-color: white;
-            margin-top: 100px;
-            height: auto;
-            color: white;
-            display: flex;
-            align-items: center;
-        }
-        
-        .vermas-container .vermas-img {
-            margin-left: 200px;
-            height: auto;
-            width: auto;
-            transform: scale(1.19);
-        }
+
+.categories-comprar {
+    padding: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+.content-comprar {
+    background-color: white;
+    height: auto;
+    padding: 50px 0;
+}
+
+.content-comprar h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 2px;
+}
+
+.content-comprar p {
+    color: #524c42;
+    text-align: center;
+    font-size: 15;
+}
+
+.categories-content-comprar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cat-comprar {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.cat-comprar img {
+    max-width: 100%;
+    height: auto;
+}
+
+.categories-comprar-ej {
+    margin-top: 100px;
+    height: auto;
+}
+
+.categories-comprar-ej p {
+    color: #000000;
+}
+
+.peugeot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.peugeot img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.amarok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.amarok img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.fiat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fiat img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.btn-vermas button {
+    margin-top: 20px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-vermas button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.vermas-container {
+    background-color: white;
+    margin-top: 100px;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.vermas-container .vermas-img {
+    margin-left: 200px;
+    height: auto;
+    width: auto;
+    transform: scale(1.19);
+}
+
+
+/*------------------------------------------footer-------------------------------------*/
