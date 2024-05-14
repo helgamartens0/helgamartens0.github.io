@@ -353,21 +353,90 @@ textarea {
     color: #ffffff;
 }
 
+.contenedor {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
 .vermas-container {
+    height: auto;
+    width: 700px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.comprar-peugeot {
     background-color: white;
     margin-top: 100px;
+    margin-left: 100px;
     height: auto;
     color: white;
     display: flex;
     align-items: center;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    border: 2px solid #000000;
 }
 
-.vermas-container .vermas-img {
-    margin-left: 200px;
+.comprar-peugeot img {
+    margin-left: 40px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px lightgray;
+    transform: scale(2.7);
+}
+
+.fotos-carr {
+    height: 200px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotos-carr img {
+    max-width: 100%;
+    margin: 5px;
+}
+
+.info-peugeot {
     height: auto;
-    width: auto;
-    transform: scale(1.19);
+    width: 700px;
+    border: 2px solid purple;
 }
 
+.titulo-peugeot p {
+    padding: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 35px;
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+}
 
-/*------------------------------------------footer-------------------------------------*/
+.tipo-peugeot p {
+    padding: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: lightcoral;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+.precio-peugeot p {
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 18px;
+    color: #000000;
+    background-color: lightgreen;
+}
