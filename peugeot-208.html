@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
@@ -22,10 +23,10 @@
 
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="comprar.html" target="_blank">Comprar</a></li>
                     <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="form.html">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,66 +35,79 @@
     <div class="contenedor">
         <main class="vermas-container">
             <div class="comprar-peugeot">
+                <div class="btn-atras"> <button id="prevBtn"><span class="material-icons">chevron_left</span></button></div>
+                <div class="btn-adelante"><button id="nextBtn"><span class="material-icons">chevron_right</span></button></div>
                 <img src="img/peugeot_208.png" alt="">
             </div>
             <div class="fotos-carr">
-                <img src="img/peugeot_208_g4.jpg" alt="">
-                <img src="img/peugeot_208_g2.jpg" alt="">
-                <img src="img/peugeot_208_g1.jpg" alt="">
-                <img src="img/peugeot_208_g3.jpg" alt="">
+                <img src="img/peugeot_208_g4.jpg" alt="frente_peugeot208" class="borde-img-carr seleccionada">
+                <img src="img/peugeot_208_g2.jpg" alt="costado_peugeot208" class="borde-img-carr">
+                <img src=" img/peugeot_208_g1.jpg " alt="partetrasera_peugeto208" class="borde-img-carr ">
+                <img src=" img/peugeot_208_g3.jpg " alt="costado_peugeot208" class="borde-img-carr ">
             </div>
 
 
         </main>
-        <div class="info-peugeot">
-            <div class="titulo-peugeot">
-                <p>PEUGEOT 208</p>
+        <div class=" info-peugeot ">
+            <div class="info-texto ">
+                <div class="titulo-peugeot ">
+                    <p>PEUGEOT 208</p>
+                </div>
+                <div class="tipo-peugeot ">
+                    <p>Feline Tiptronic</p>
+                </div>
+                <div class="precio-peugeot ">
+                    <p>Precio:</p>
+                    <p><b>$27.258.000</b></p>
+
+                </div>
             </div>
-            <div class="tipo-peugeot">
-                <p>Feline Tiptronic</p>
+
+
+
+            <div class="botones-info ">
+                <div class="btn-consultar ">
+                    <a href="form.html"><button>CONSULTAR</button></a>
+                </div>
+                <div class="btn-reservar ">
+                    <button>RESERVAR</button>
+                </div>
             </div>
-            <div class="precio-peugeot">
-                <p>Precio:</p>
-                <p>$27.258.000</p>
-            </div>
-            <div class="btn-consultar">
-                <button>CONSULTAR</button>
-            </div>
-            <div class="btn-reservar">
-                <button>RESERVAR</button>
-            </div>
+
         </div>
 
     </div>
 
 
-    <footer class="footer">
-        <section class="footer logo">
-            <img src="img/logo-bgdark.png" alt="" />
-            <article class="links">
+    <footer class="footer ">
+        <section class="footer logo ">
+            <img src="img/logo-bgdark.png " alt=" " />
+            <article class="links ">
                 <strong>Enlaces de interés</strong>
                 <nav>
                     <ul>
-                        <li><a class="nav-footer" href="#">Home</a></li>
-                        <li><a class="nav-footer" href="#">Comprar</a></li>
-                        <li><a class="nav-footer" href="#">Nosotros</a></li>
-                        <li><a class="nav-footer" href="#">Contactanos</a></li>
+                        <li><a class="nav-footer " href="# ">Home</a></li>
+                        <li><a class="nav-footer " href="# ">Comprar</a></li>
+                        <li><a class="nav-footer " href="# ">Nosotros</a></li>
+                        <li><a class="nav-footer " href="# ">Contactanos</a></li>
                     </ul>
                 </nav>
             </article>
         </section>
 
-        <section class="footer contact">
-            <section class="ico social media">
+        <section class="footer contact ">
+            <section class="ico social media ">
                 <p>E-mail: carnow@mySite.com</p>
                 <p>Seguinos en nuestras redes:</p>
-                <a href="https://www.instagram.com/"><img class="ico" src="img/icon-instagram.svg" alt="logo-redes" /></a>
-                <a href="https://www.facebook.com/">
-                    <img class="ico" src="img/icon-facebook.svg" alt="logo-redes" /></a>
-                <a href="https://twitter.com/"><img class="ico" src="img/icon-pinterest.svg" alt="logo-redes" /></a>
+                <a href="https://www.instagram.com/ "><img class="ico " src="img/icon-instagram.svg " alt="logo-redes " /></a>
+                <a href="https://www.facebook.com/ ">
+                    <img class="ico " src="img/icon-facebook.svg " alt="logo-redes " /></a>
+                <a href="https://twitter.com/ "><img class="ico " src="img/icon-pinterest.svg " alt="logo-redes " /></a>
             </section>
         </section>
     </footer>
+    <script src="carousel.js"></script>
 </body>
+
 
 </html>
