@@ -1,88 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="menu container">
-            <!--         <a href="#" class="logo"
+      <div class="menu container">
+        <!--         <a href="#" class="logo"
   
           </a> -->
-            ><img class="logo" src="img/logo-bgwhite.png" alt="logo" />
-            <label for="menu">
+        <img class="logo" src="img/logo-bgwhite.png" alt="logo" />
+        <label for="menu">
           <img src="img/burger-menu.png" id="menu-icon" alt="" />
         </label>
 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="comprar.html">Comprar</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="form.html">Contactanos</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="comprar.html">Comprar</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="form.html">Contactanos</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="containerf">
-        <div class="form-container">
-            <form>
-                <h2 class="h2-form">Contactanos</h2>
-                <div class="form-input">
-                    <label for="name">Nombre:</label>
-                    <input type="text" name="name" id="name" />
+      <div class="form-container">
+        <form id="form">
+          <h2 class="h2-form">Contactanos</h2>
+          <div class="form-input">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name" />
 
-                    <label for="lastname">Apellido:</label>
-                    <input type="text" name="lastname" id="lastname" />
+            <label for="lastname">Apellido:</label>
+            <input type="text" name="lastname" id="lastname" />
 
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" name="email" id="email" />
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email" />
 
-                    <label for="message">Mensaje:</label>
-                    <textarea type="text" name="message" id="message" cols="30" rows="5" placeholder="Consulta"></textarea>
-                </div>
-                <input class="btn" type="submit" value="Enviar" />
-            </form>
-            <img id="img-form" src="img/concesionaria-form.jpg" />
-        </div>
+            <label for="message">Mensaje:</label>
+            <textarea
+              type="text"
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </div>
+          <div>
+            <p id="error"></p>
+          </div>
+          <input class="btn" type="submit" value="Enviar" />
+        </form>
+        <img id="img-form" src="img/concesionaria-form.jpg" />
+      </div>
     </section>
 
     <footer class="footer">
-        <section class="footer logo">
-            <img src="img/logo-bgdark.png" alt="" />
-            <article class="links">
-                <strong>Enlaces de interés</strong>
-                <nav>
-                    <ul>
-                        <li><a class="nav-footer" href="index.html">Home</a></li>
-                        <li><a class="nav-footer" href="#">Comprar</a></li>
-                        <li><a class="nav-footer" href="#">Nosotros</a></li>
-                        <li><a class="nav-footer" href="form.html">Contactanos</a></li>
-                    </ul>
-                </nav>
-            </article>
-        </section>
+      <section class="footer logo">
+        <img src="img/logo-bgdark.png" alt="" />
+        <article class="links">
+          <strong>Enlaces de interés</strong>
+          <nav>
+            <ul>
+              <li><a class="nav-footer" href="index.html">Home</a></li>
+              <li><a class="nav-footer" href="comprar.html">Comprar</a></li>
+              <li><a class="nav-footer" href="#">Nosotros</a></li>
+              <li><a class="nav-footer" href="form.html">Contactanos</a></li>
+            </ul>
+          </nav>
+        </article>
+      </section>
 
-        <section class="footer contact">
-            <section class="ico social media">
-                <p>E-mail: carnow@mySite.com</p>
-                <p>Seguinos en nuestras redes:</p>
-                <a href="https://www.instagram.com/"><img class="ico" src="img/icon-instagram.svg" alt="logo-redes" /></a>
-                <a href="https://www.facebook.com/">
-                    <img class="ico" src="img/icon-facebook.svg" alt="logo-redes" /></a>
-                <a href="https://twitter.com/"><img class="ico" src="img/icon-pinterest.svg" alt="logo-redes" /></a>
-            </section>
+      <section class="footer contact">
+        <section class="ico social media">
+          <p>E-mail: carnow@mySite.com</p>
+          <p>Seguinos en nuestras redes:</p>
+          <a href="https://www.instagram.com/"
+            ><img class="ico" src="img/icon-instagram.svg" alt="logo-redes"
+          /></a>
+          <a href="https://www.facebook.com/">
+            <img class="ico" src="img/icon-facebook.svg" alt="logo-redes"
+          /></a>
+          <a href="https://twitter.com/"
+            ><img class="ico" src="img/icon-pinterest.svg" alt="logo-redes"
+          /></a>
         </section>
+      </section>
     </footer>
-</body>
-
+    <script src="form.js"></script>
+  </body>
 </html>
