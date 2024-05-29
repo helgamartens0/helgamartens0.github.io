@@ -613,7 +613,7 @@ textarea {
     padding: 30px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
 
@@ -694,8 +694,8 @@ textarea {
     padding: 30px;
     width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .footer contact {
