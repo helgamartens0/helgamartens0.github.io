@@ -37,7 +37,6 @@ function carrousel(contenedor) {
         }
         img.src = imagenes[contador];
 
-        // Actualiza el resaltado de las miniaturas
         miniaturas.forEach((miniatura, index) => {
             if (index === contador) {
                 miniatura.classList.add('seleccionada');
